@@ -1,0 +1,362 @@
+@import url("https://fonts.cdnfonts.com/css/gilroy-bold");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+}
+#hero{
+display: flex;
+justify-content: space-between;
+padding: 5px 10%;
+align-items: center;
+}
+
+
+#gradient{
+    background-image: linear-gradient(to right bottom,rgba(200, 192, 203,0.5),rgba(255, 255, 200, 0.2))
+}
+.logo{
+position: absolute;
+top: 10px;
+left:40px;
+width: 200px;
+height: 50px;
+padding: 8px;
+font-family: gilroy-body;
+}
+
+
+.textcolor{
+    color:  rgba(0, 101, 254, 1);
+}
+.header{
+    display: flex;
+    justify-content: center;
+    width: 1100px;
+    margin: 5px auto;
+    align-items: center;
+    float:right;
+}
+    a{
+        text-decoration: none;
+        color: rgba(20, 20, 20,1);
+        font-family: gilroy-bold;
+    }
+.list1 {
+    display:flex;
+    flex:1;
+    position: absolute;
+    top:auto;
+    left:350px;
+    font-family: gilroy-medium;
+    font-size: 18px;
+    line-height: 19px;
+    column-gap:40px;
+    width:540px;
+    height:20px;
+    list-style-type: none;
+}
+
+.list2{
+    display:flex;
+    flex:1;
+    position: absolute;
+    top:auto;
+    left: 900px;
+    font-size: 16px;
+    column-gap:40px;
+    width:540px;
+    height:24px;
+    list-style-type: none;
+}
+.dropdown{
+    border:0px;
+    outline: 0px;
+    background-color: rgba(210,192,221.0.001);
+}
+.middlediv {
+width: 504px;
+height: 24px;
+gap: 40px;
+padding: 12px 24px;
+margin-inline-start: 50px;
+}
+
+.lastdiv{
+width: 504px;
+height: 24px;
+padding: 12px 24px;
+margin-inline-end: -20px;
+}
+
+.button{
+width: 142px;
+height: 40px;
+padding: 12px 24px 12px 24px;
+border-radius: 100px;
+color: rgb(255, 255, 255);
+line-height: 12px;
+font-size: 16px;
+margin-block-start: -12px;
+background-color:rgba(0, 101, 254, 1);
+border:none;
+}
+
+
+.intro{
+width: 948px;
+height: 200px;
+font-size: 48px;
+font-family: gilroy-bold;
+line-height: 96px;
+text-align: center;
+align-items: center;
+font-weight: bold;
+margin: 0px auto;
+}
+
+.url{
+    color: rgba(0, 90, 226, 1)
+}
+
+.section1{
+    position: relative;
+}
+
+.underline{
+position: absolute;
+top:170px;
+left:50%;
+transform: translate(-50%);
+}
+
+.introp{
+font-family: gilroy-medium;
+font-size: 18px;
+line-height: 28px;
+letter-spacing: 0em;
+text-align: center;
+margin: 0 auto;
+margin-block-start: 50px;
+}
+
+.signup1{
+line-height: 12px;
+width: 142px;
+height: 44px;
+padding: 12px 24px 12px 24px;
+border-radius: 100px;
+color:rgba(255, 255, 255, 1);
+background-color: rgba(0, 101, 254, 1);
+border: none;
+}
+
+.ul2{
+font-family: gilroy-semibold;
+font-size: 16px;
+display: flex;
+width: 282px;
+height: 44px;
+gap: 56px;
+margin:40px auto;
+list-style-type: none;
+}
+
+.learnmore{
+    padding: 10px 0;
+}
+
+.images{
+    display: grid;
+    place-items: center;
+    width:100px;
+    position: relative;
+}
+
+.overlay{
+width: 833px;
+height: 336.5675048828125px;
+position: absolute;
+top: 10px;
+left: 300px;
+border-radius: 24px;
+}
+
+.oval{
+display: grid;
+place-items: center;
+width: 1440px;
+height: 93px;
+position: absolute;
+top:850px;
+background-color: rgba(248, 247, 247, 1);
+}
+
+.section2{
+display: flex;
+justify-content: space-between;
+row-gap: 120px;
+position: relative;
+height: 220px;
+
+}
+.onestop{
+position: absolute;
+top:750px;
+left:150px;
+font-family: gilroy-bold;
+font-size: 40px;
+line-height: 48px;
+color: rgba(20, 20, 20, 1);
+width: 337px;
+height: 96px;
+row-gap: 10px;
+}
+
+.section2 h2{
+    font-family:gilroy-semibold;
+    font-size: 32px;
+    line-height: 40px;
+    color: rgba(20, 20, 20, 1);
+}
+
+.section2 p{
+    font-family: gilroy-medium;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(20, 20, 20, 1);
+}
+
+.minis{
+position: absolute;
+top: 750px;
+left: 600px;
+width: 709px;
+height: 100px;
+display: flex;
+justify-content: space-between;
+row-gap: 72px;
+}
+.possibilities{
+    position: absolute;
+    top:-250px;
+    left:auto;
+    width: 1,446px;
+    padding: 60px 140px 60px 140px;
+}
+
+.section3{
+background-color: #ffffff;
+width: 1,202.1px;
+height: 504px;
+position: absolute;
+top: 1200px;
+left: 120px;
+display: flex;
+width: 398.1px;
+height: 256px;
+gap: 20px 16px
+}
+
+
+.grid .grid1{
+    display: inline-grid;
+    padding-left: center; 
+}
+
+.why{
+    font-family: gilroy-bold;
+    font-size: 40px;
+    line-height: 32px;
+    width: 382px;
+    height: 32px;
+    padding-block-end: 50px;
+}
+
+.scissors{
+    margin-inline-end: 60px;
+}
+
+.scissors p{
+    font-family: gilroy-medium;
+    font-size: 16px;
+    line-height: 28px;
+    color: rgba(20, 20, 20, 1);
+}
+
+section div h3{
+    font-family: gilroy-semibold;
+    font-size: 32px;
+    line-height: 28px;
+    width: 218px;
+    padding-block-end: 20px;
+}
+
+.grid img{
+    width: 56px;
+    height:106px;
+}
+
+.grid1 img{
+    width: 56px;
+    height:106px;
+}
+
+.line{
+    position: absolute;
+    left:-15px;
+    top:-2px;
+    }
+
+.grid p{
+font-family: gilroy-medium;
+font-size: 16px;
+line-height: 24px;
+    }
+
+.grid1 p{
+font-family: gilroy-medium;
+font-size: 16px;
+line-height: 24px;
+    }
+
+   .short .code .custom .data{
+        position: absolute;
+        top:60px;
+        left:40
+    }
+
+.perfect{
+        background-color: #ffffff;
+        margin: 0 auto;
+        padding: 20px;
+        position: absolute;
+        top:1800px;
+        left:450px;
+    }
+.line2{
+position: absolute;
+
+left: 1px;
+    }
+
+.perfect p{
+font-family: Gilroy-Medium;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: center;
+}
+
+.perfect h2{
+font-family: Gilroy-Bold;
+font-size: 40px;
+line-height: 48px;
+letter-spacing: 0em;
+text-align: center;
+}
+
